@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+          box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid greenyellow;
+            background-color: rgb(180, 140, 163);
+
+        }
+        .item{
+            border: 5px solid blue;
+            margin: 20px 8px;
+            padding: 20px 5px;
+            background-color: skyblue;
+
+        }
+
+        #fruit{
+              float: left;
+              width: 48%;
+
+        }
+        #Stationary{
+            float: right;
+            width: 48%;
+
+        }
+        #Books{
+              /* float: left; */
+              width: 98%;
+              clear: both;
+        }
+        p, h3{
+            text-align: justify;
+        }
+        h1{
+            margin: 10px auto;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="fruit" class="item">
+            <h3>Furits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ea illo quas id consequuntur explicabo, recusandae accusantium aliquam veritatis temporibus alias doloremque asperiores unde! Nam quod deserunt est. Quas, iste?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo tempora nulla non minus nihil reiciendis aspernatur porro sapiente ipsum natus aut ad ea, magnam perferendis voluptatum quam vitae corporis dignissimos!</p>
+        </div>
+
+        <div id="Stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="Stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ea illo quas id consequuntur explicabo, recusandae accusantium aliquam veritatis temporibus alias doloremque asperiores unde! Nam quod deserunt est. Quas, iste?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet recusandae rerum dolor atque similique rem, dolorum reprehenderit nam consectetur iste eaque magni non incidunt fugiat alias voluptates ducimus quia vero!</p>
+    </div>
+
+        <div id="Books" class="item">
+            <h3>Books</h3>
+            <p id="Bookspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ea illo quas id consequuntur explicabo, recusandae accusantium aliquam veritatis temporibus alias doloremque asperiores unde! Nam quod deserunt est. Quas, iste?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vero laudantium modi repellendus sed velit officia cum deleniti delectus perferendis odit ut minus omnis, placeat illo voluptatibus rerum dicta voluptas.</p>
+        </div>
+
+        <div id="glasses" class="item">
+            <h3>glasses</h3>
+            <p id="glasses" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ea illo quas id consequuntur explicabo, recusandae accusantium aliquam veritatis temporibus alias doloremque asperiores unde! Nam quod deserunt est. Quas, iste?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vero laudantium modi repellendus sed velit officia cum deleniti delectus perferendis odit ut minus omnis, placeat illo voluptatibus rerum dicta voluptas.</p>
+        </div>
+
+    </div>
+</body>
+</html>
